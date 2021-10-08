@@ -1,5 +1,5 @@
 import discord
-from discord.shard import AutoShardedClient
+import os
 
 client = discord.Client()
 
@@ -18,4 +18,6 @@ async def on_message(message):
     if message.content.startswith("!제작자"):
         await message.channel.send("Fantboss#4687")
 
-client.run("ODk2MDMzMDQ2MzcxOTEzNzg4.YWBNzQ.U19t-nAJoZF4m36sJD8uKd1eVh8")
+access_tokent = os.environ["BOT_TOKEN"]        
+        
+client.run(access_token)
