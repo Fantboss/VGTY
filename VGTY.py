@@ -18,6 +18,5 @@ async def on_message(message):
     if message.content.startswith("!제작자"):
         await message.channel.send("Fantboss#4687")
 
-access_token = os.environ["BOT_TOKEN"]        
-        
-client.run(access_token)
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token")
