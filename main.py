@@ -4,7 +4,6 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    print(client.user.id)
     print("ready")
     game = discord.Game("!cmd")
     await client.change_presence(status=discord.Status.online, activity=game)
