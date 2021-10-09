@@ -1,5 +1,4 @@
 import discord
-import os
 
 client = discord.Client()
 
@@ -21,5 +20,4 @@ async def on_message(message):
     if message.content.startswith("!제작자서버"):
         await message.channel.send("**https://discord.gg/QUjVvmME3E**")
 
-access_token = os.environ["BOT_TOKEN"]
-client.run("access_token")
+client.run("ODk2MDMzMDQ2MzcxOTEzNzg4.YWBNzQ.eG5Zc9i3-ddchEymsgpXFZgLDnk")
