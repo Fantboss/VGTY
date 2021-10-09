@@ -20,4 +20,4 @@ async def on_message(message):
     if message.content.startswith("!제작자서버"):
         await message.channel.send("**https://discord.gg/QUjVvmME3E**")
 
-client.run("ODk2MDMzMDQ2MzcxOTEzNzg4.YWBNzQ.eG5Zc9i3-ddchEymsgpXFZgLDnk")
+client.run("ODk2MDMzMDQ2MzcxOTEzNzg4.YWBNzQ.KnN-X2-3MOj96sO-iQtc9YYT6Zs")
